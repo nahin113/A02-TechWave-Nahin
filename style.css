@@ -19,7 +19,7 @@
 }
 
 .violete {
-    background-color: #230E3D;
+  background-color: #230e3d;
 }
 
 .green {
@@ -64,7 +64,7 @@
 hr {
   margin-bottom: 5rem;
   border: none;
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid #ffffff;
 }
 
 /* navbar */
@@ -127,34 +127,92 @@ hr {
 }
 
 #about .about-container .about-rating .about-rating-cards {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items: center;
-    margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-bottom: 120px;
 }
 
 #about .about-container .about-rating .about-rating-cards .card {
-    text-align: center;
+  text-align: center;
 }
 
 #about .about-container .about-rating .about-rating-cards .card h1 {
-    font-size: 3rem;
-    font-weight: 900;
-    margin-bottom: 1rem;
-    line-height: 3.625rem;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  line-height: 3.625rem;
 }
 
 #about .about-container .about-rating .about-rating-cards .card p {
-    font-size: 1rem;
-    line-height: 1.25rem;
-    font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 200;
 }
 
 /* choose section */
 
 .choose-container {
-    
+  padding-top: 120px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 120px;
 }
 
+.choose-container h2 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-style: Bold;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3.624rem;
+}
 
+.choose-container .choose-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+}
+.choose-container .choose-cards .card {
+    padding: 40px;
+    border-radius: 40px;
+    background-color: #351165;
+    display: grid;
+    align-items: center;
+}
 
+.choose-container .choose-cards .one {
+    grid-row: span 2;
+}
+
+.choose-container .choose-cards .two {
+    grid-column: span 2;
+}
+
+.choose-container .choose-cards .three {
+    grid-column: span 2;
+}
+
+.choose-container .choose-cards .four {
+    grid-column: span 2;
+}
+
+.choose-container .choose-cards .card img {
+    margin-bottom: 1rem;
+    height: 60px;
+    width: 60px;
+}
+
+.choose-container .choose-cards .card h3 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+}
+
+.choose-container .choose-cards .card p {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}

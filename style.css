@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colors */
+
+.blue {
+  background-color: #1a0b2e;
+}
+
+.violete {
+    background-color: #230E3D;
+}
+
+.green {
+  color: #00ff88;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.primary-color {
+  background: linear-gradient(45deg, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
+}
+
+.secondary-color {
+  background: linear-gradient(45deg, #007b70 0%, #ecf955 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* shared style */
+
+.btn {
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  border: none;
+  min-width: 135px;
+}
+
+.material-symbols-outlined {
+  margin-left: 4px;
+}
+
+hr {
+  margin-bottom: 5rem;
+  border: none;
+  border-top: 1px solid #FFFFFF;
+}
+
+/* navbar */
+
+#navbar .nav-container {
+  min-height: 92px;
+  /* max-width: 846px;
+    margin: 0 auto; */
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar .nav-container .nav-head1 {
+  -webkit-text-stroke: 1px rgb(0, 0, 0, 1);
+}
+
+#navbar .nav-container .nav-links {
+  min-width: 218px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+#navbar .nav-container .nav-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+/* about section */
+
+#about {
+  min-height: 647px;
+}
+
+#about .about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#about .about-container .about-content {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+#about .about-container .about-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#about .about-container .about-content p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 200;
+}
+
+#about .about-container .about-rating .about-rating-cards {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    margin-bottom: 120px;
+}
+
+#about .about-container .about-rating .about-rating-cards .card {
+    text-align: center;
+}
+
+#about .about-container .about-rating .about-rating-cards .card h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    line-height: 3.625rem;
+}
+
+#about .about-container .about-rating .about-rating-cards .card p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 200;
+}
+
+/* choose section */
+
+.choose-container {
+    
+}
+
+
+
